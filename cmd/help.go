@@ -36,7 +36,7 @@ Commands:
 	help       display this screen
 Flags: 
 	--functions="FUNCTION[ FUNCTION...]"  Specify a list of hash functions to try out
-	--max-threads=NUMBER	                Maximum number of threads allowed. Defaults to number of CPU cores`,
+	--max-threads=NUMBER                  Maximum number of threads allowed. Defaults to number of CPU cores`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if len(args) == 0 {
 			fmt.Println(cmd.Long)
